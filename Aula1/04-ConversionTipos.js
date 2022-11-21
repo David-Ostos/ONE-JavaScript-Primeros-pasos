@@ -13,3 +13,5 @@ console.log(nombrePasajero);
 let valorBoleto = 1650;
 
 console.log(valorBoleto);
+
+let boletoActivo = true;
