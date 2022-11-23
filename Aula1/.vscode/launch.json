@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Iniciar el programa",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/14-Lazos3.js"
+        },
+        {
+            "type": "node",
+            "name": "Ejecutar el archivo actual",
+            "request": "launch",
+            "program": "${workspaceFolder}/14-lazos3.js"
+        },
+        {
+            "type": "node",
+            "name": "Ejecutar el archivo actual",
+            "request": "launch",
+            "program": "${workspaceFolder}/14-lazos3.js"
+        }
+    ]
+}
