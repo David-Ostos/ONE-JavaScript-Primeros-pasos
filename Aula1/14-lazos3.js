@@ -36,6 +36,7 @@ for (let i = 0; i < datos.length && ciudadSeleccionada == ""; i++) {
     if(datos[i].precio <= presupuestoDisponible){
         ciudadSeleccionada = datos[i].ciudad;
         precioSeleccionado = datos[i].precio;
+        break;
 
     }
 }
